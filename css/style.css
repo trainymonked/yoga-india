@@ -1,0 +1,155 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+section {
+  width: 100%;
+  padding-left: calc((100% - 940px)/2);
+  padding-right: calc((100% - 940px)/2);
+}
+
+.header {
+  background-image: url(/img/header-bg.jpg);
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.header-nav {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+}
+
+.header-contact-info {
+  font-family: "Muller Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.header-contact-phoneNumber {
+  font-family: "Muller Bold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.header-title {
+  margin-top: 180px;
+  font-family: "Muller Medium";
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.header-description {
+  margin-top: 14px;
+  font-family: "Muller Regular";
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.header-location {
+  margin-top: 14px;
+  font-family: "Muller Regular";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header-button {
+  margin-top: 100px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-family: "Muller Bold";
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 22px 74px;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  background-color: #db883c;
+  border-color: #db883c;
+}
+
+.header-icons {
+  margin-top: 162px;
+  padding-bottom: 40px;
+}
+
+.header-icons-icon {
+  margin: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+.header-icons-icon:hover {
+  background-color: #db883c;
+  border-color: #db883c;
+}
+
+.info {
+  background-color: #f8f2e4;
+}
+
+.info-in {
+  padding: 50px 40px;
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.info-in-text {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.info-in-text-medium {
+  font-family: "Muller Medium";
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.info-in-text-large {
+  margin-top: 16px;
+  font-size: 48px;
+  font-family: "Muller Medium";
+  text-transform: uppercase;
+}
+
+.info-in-text-paragraph {
+  margin-top: 45px;
+  font-family: "Muller Light";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.info-in-text-small {
+  font-family: "Muller Light";
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.info-in-text-small-icon {
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
