@@ -3,10 +3,9 @@
   margin: 0;
 }
 
-section {
-  width: 100%;
-  padding-left: calc((100% - 940px)/2);
-  padding-right: calc((100% - 940px)/2);
+.container {
+  width: 940px;
+  margin: 0 auto;
 }
 
 .header {
@@ -24,21 +23,26 @@ section {
   justify-content: space-between;
 }
 
-.header-contact {
+.header-nav-logo {
+  width: 80px;
+  height: 104px;
+}
+
+.header-nav-contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: right;
 }
 
-.header-contact-info {
+.header-nav-contact-info {
   font-family: "Muller Regular";
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
 }
 
-.header-contact-phoneNumber {
+.header-nav-contact-phoneNumber {
   font-family: "Muller Bold";
   font-size: 20px;
   font-weight: 400;
@@ -102,6 +106,8 @@ section {
   border-color: #db883c;
 }
 
+/* * * * * */
+
 .info {
   background-color: #f8f2e4;
 }
@@ -113,9 +119,16 @@ section {
   /* flex-wrap: wrap; */
 }
 
+.info-in-pic {
+  min-width: 390px;
+  min-height: 490px;
+}
+
 .info-in-text {
   margin-left: 80px;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .info-in-text-medium {
@@ -152,4 +165,96 @@ section {
   width: 24px;
   height: 24px;
   object-fit: contain;
+}
+
+/* * * * * */
+
+.reasons {
+  padding-top: 80px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.reasons-title {
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.reasons-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 25px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.reasons-list-item {
+  width: 30%;
+  margin-bottom: 45px;
+}
+
+.reasons-list-item-pic {
+  margin-bottom: 20px;
+}
+
+.reasons-list-item-text {
+  font-family: "Muller Regular";
+  font-size: 16px;
+  font-weight: 400;
+  width: 84%;
+  margin: 0 auto;
+}
+
+/* * * * * */
+
+.block4 {
+  padding-top: 80px;
+  text-align: center;
+  background: -webkit-linear-gradient(top, #f8f2e4, #f8f2e4 70%, white 30%, white);
+}
+
+.block4-title {
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.block4-slider {
+  margin-top: 80px;
+}
+
+.block4-slider-pic {
+  width: 940px;
+  height: 530px;
+}
+
+/* * * * * */
+
+.schedule {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.schedule-title {
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.schedule-grid {
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.schedule-grid-item {
+  width: 20%;
 }
