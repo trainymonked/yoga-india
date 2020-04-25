@@ -179,7 +179,10 @@
   font-family: "Muller Medium";
   font-size: 36px;
   font-weight: 400;
-  margin-bottom: 16px;
+}
+
+.reasons-line {
+  margin-top: 16px;
 }
 
 .reasons-list {
@@ -188,7 +191,7 @@
   align-content: space-between;
   justify-content: center;
   margin-top: 70px;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
   margin-left: -20px;
   margin-right: -20px;
 }
@@ -215,14 +218,17 @@
 .block4 {
   padding-top: 80px;
   text-align: center;
-  background: -webkit-linear-gradient(top, #f8f2e4, #f8f2e4 70%, white 30%, white);
+  background: linear-gradient(#f8f2e4 70%, white 30%);
 }
 
 .block4-title {
   font-family: "Muller Medium";
   font-size: 36px;
   font-weight: 400;
-  margin-bottom: 20px;
+}
+
+.block4-line {
+  margin-top: 20px;
 }
 
 .block4-slider {
@@ -239,22 +245,405 @@
 .schedule {
   padding-top: 80px;
   text-align: center;
+  background-color: #ffffff;
+  padding-bottom: 70px;
 }
 
 .schedule-title {
   font-family: "Muller Medium";
   font-size: 36px;
   font-weight: 400;
-  margin-bottom: 20px;
+}
+
+.schedule-line {
+  margin-top: 20px;
 }
 
 .schedule-grid {
-  margin-top: 70px;
+  margin-top: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .schedule-grid-item {
-  width: 20%;
+  width: 22%;
+  background-color: #fff8e6;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.schedule-grid-item-date {
+  color: #4b4b4b;
+  font-family: "Muller Light";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.schedule-grid-item-name {
+  font-family: "Muller Medium";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.schedule-grid-item-link {
+  display: inline-block;
+  margin-top: 18px;
+  font-family: "Muller Regular";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.schedule-grid-item-button {
+  color: #e28234;
+  font-family: "Muller Bold";
+  font-size: 12px;
+  font-weight: 400;
+  border: 2px solid #e28234;
+  background-color: transparent;
+  margin-top: 16px;
+  width: 176px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.schedule-grid-item-button:hover {
+  color: #ffffff;
+  background-color: #e28234;
+}
+
+/* * * * * */
+
+.program {
+  background: linear-gradient(#f8f2e4 65%, white 35%);
+  padding-top: 80px;
+  text-align: center;
+}
+
+.program-title {
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.program-line {
+  margin-top: 20px;
+}
+
+.program-slider {
+  margin-top: 80px;
+}
+
+.program-slider-pic {
+  width: 940px;
+  height: 530px;
+}
+
+/* * * * * */
+
+.ayurveda {
+  padding-top: 80px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.ayurveda-title {
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.ayurveda-line {
+  margin-top: 20px;
+  margin-bottom: 42px;
+}
+
+.ayurveda-text {
+  font-family: "Muller Light";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 28px;
+}
+
+.ayurveda-program {
+  font-family: "Muller Medium";
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 64px;
+}
+
+.ayurveda-list {
+  margin: 60px auto 72px;
+  width: 620px;
+  text-align: start;
+}
+
+.ayurveda-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ayurveda-list-item-pic {
+  width: 120px;
+  height: 120px;
+  /* object-fit: contain; */
+}
+
+.ayurveda-list-item-text {
+  font-family: "Muller Light";
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+/* * * * * */
+
+.block8-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 30px;
+  background-image: url(../img/back.svg);
+  background-size: 75%;
+  background-repeat: no-repeat;
+}
+
+.block8-content-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 460px;
+  justify-content: space-between;
+}
+
+.block8-content-grid-item {
+  width: 139px;
+  height: 139px;
+  margin-bottom: 21px;
+}
+
+.block8-content-description {
+  max-width: 420px;
+  margin-left: 30px;
+}
+
+.block8-content-description-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.block8-content-description-location {
+  color: #4b4b4b;
+  font-family: "Muller Light";
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.block8-content-description-text {
+  color: #000000;
+  font-family: "Muller Light";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.block8-content-description-benefits {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 260px;
+  margin-top: 40px;
+}
+
+.block8-content-description-benefits-item {
+  max-width: 47%;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.block8-content-description-benefits-item-img {
+  width: 13px;
+  height: 13px;
+  margin-right: 10px;
+}
+
+.block8-content-description-benefits-item-text {
+  color: #454545;
+  font-family: "Muller Light";
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* * * * * */
+
+.instructors {
+  margin-top: 60px;
+  background: linear-gradient(#f8f2e4 87%, white 13%);
+  text-align: center;
+  padding-top: 80px;
+
+}
+
+.instructors-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.instructors-line {
+  margin-top: 16px;
+  margin-bottom: 50px;
+}
+
+.instructors-card {
+  margin-top: 20px;
+  height: 540px;
+  position: relative;
+  text-align: left;
+}
+
+.instructors-card-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.instructors-card-info {
+  position: relative;
+  z-index: 400;
+  top: 370px;
+  background-color: rgba(68, 68, 68, 0.5);
+  height: 170px;
+  display: flex;
+  padding: 40px 70px 40px 50px;
+}
+
+.instructors-card-info-name {
+  color: #ffffff;
+  font-family: "Muller Bold";
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-right: 45px;
+  min-width: 245px;
+}
+
+.instructors-card-info-short {
+  color: #ffffff;
+  font-family: "Muller Regular Italic";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.instructors-card-info-long {
+  color: #ffffff;
+  font-family: "Muller Regular";
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 45px;
+  margin-top: 5px;
+}
+
+.instructors-card-btns {
+  position: absolute;
+  z-index: 500;
+  top: 520px;
+  left: 880px;
+}
+
+.instructors-card-btns-item {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  mask: url(../img/card_btn.svg) no-repeat center;
+  -webkit-mask: url(../img/card_btn.svg) no-repeat center;
+  background-color: #ffffff;
+}
+
+.instructors-card-btns-item-active {
+  mask: url(../img/card_btn2.svg) no-repeat center;;
+  -webkit-mask: url(../img/card_btn2.svg) no-repeat center;
+}
+
+/* * * * * */
+
+.reviews {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.reviews-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.reviews-line {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.reviews-slider {
+
+}
+
+.reviews-slider-btns-item {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  mask: url(../img/card_btn.svg) no-repeat center;
+  -webkit-mask: url(../img/card_btn.svg) no-repeat center;
+  background-color: #b4b4b4;
+}
+
+.reviews-slider-btns-item-active {
+  mask: url(../img/card_btn2.svg) no-repeat center;;
+  -webkit-mask: url(../img/card_btn2.svg) no-repeat center;
+}
+
+/* * * * * */
+
+/* Fonts */
+
+@font-face {
+  font-family: "Muller Bold";
+  src: url("../fonts/Muller/MullerBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Muller Light";
+  src: url("../fonts/Muller/MullerLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Muller Light Italic";
+  src: url("../fonts/Muller/MullerLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Muller Medium";
+  src: url("../fonts/Muller/MullerMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Muller Regular";
+  src: url("../fonts/Muller/MullerRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Muller Regular Italic";
+  src: url("../fonts/Muller/MullerRegularItalic.ttf") format("truetype");
 }
