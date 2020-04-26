@@ -392,7 +392,7 @@
 .ayurveda-list-item-pic {
   width: 120px;
   height: 120px;
-  /* object-fit: contain; */
+  object-fit: contain;
 }
 
 .ayurveda-list-item-text {
@@ -560,6 +560,7 @@
   z-index: 500;
   top: 520px;
   left: 880px;
+  cursor: default;
 }
 
 .instructors-card-btns-item {
@@ -579,6 +580,7 @@
 /* * * * * */
 
 .reviews {
+  background-color: #ffffff;
   padding-top: 80px;
   padding-bottom: 80px;
   text-align: center;
@@ -612,6 +614,256 @@
 .reviews-slider-btns-item-active {
   mask: url(../img/card_btn2.svg) no-repeat center;;
   -webkit-mask: url(../img/card_btn2.svg) no-repeat center;
+}
+
+/* * * * * */
+
+.chose {
+  background-color: #f8f2e4;
+  padding-top: 80px;
+  padding-bottom: 56px;
+  text-align: center;
+}
+
+.chose-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.chose-line {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.chose-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.chose-grid-item {
+  width: 26%;
+  margin-bottom: 56px;
+}
+
+.chose-grid-item-img {
+  width: 120px;
+  height: 120px;
+}
+
+.chose-grid-item-title {
+  color: #000000;
+  font-family: "Muller Bold";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 38px;
+}
+
+.chose-grid-item-text {
+  color: #000000;
+  font-family: "Muller Light";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+/* * * * * */
+
+.how {
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center; 
+}
+
+.how-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.how-line {
+  margin-top: 20px;
+  margin-bottom: 36px;
+}
+
+.how-description {
+  color: #3f3f3f;
+  font-family: "Muller Regular Italic";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.how-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.how-list-item {
+  width: 15%;
+}
+
+.how-list-separator {
+  /* align-self:  */
+  width: 25px;
+  height: 17px;
+  margin-top: 40px;
+}
+
+.how-list-item-img {
+  width: 90px;
+  height: 90px;
+}
+
+.how-list-item-step {
+  color: #3f3f3f;
+  font-family: "Muller Regular";
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.how-list-item-link {
+  display: block;
+  color: #ea7231;
+  font-family: "Muller Regular";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+  /* text-decoration: underline; */
+}
+
+/* * * * * */
+
+.cost {
+  background-color: #f8f2e4;
+  padding-top: 80px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+.cost-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.cost-line {
+  margin-top: 20px;
+  margin-bottom: 56px;
+}
+
+.cost-card {
+  margin: 0px 60px;
+}
+
+.cost-card-up {
+  background-color: #ffffff;
+  padding: 50px 50px 20px;
+}
+
+.cost-card-up-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.cost-card-up-item-text {
+  color: #000000;
+  font-family: "Muller Light";
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.cost-card-up-bold {
+  font-family: "Muller Bold";
+  font-weight: 700;
+}
+
+.cost-card-up-item-price {
+  color: #e28234;
+  font-family: "Muller Light";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.cost-card-down {
+  background-color: #f4e1b6;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 45px;
+  align-items: center;
+}
+
+.cost-card-down-text {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.cost-card-down-button {
+  color: #e28234;
+  font-family: "Muller Bold";
+  font-size: 12px;
+  font-weight: 400;
+  border: 2px solid #e28234;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 12px 44px;
+  cursor: pointer;
+}
+
+.cost-card-down-button:hover {
+  background-color: #db883c;
+  color: #ffffff;
+}
+
+.cost-includes-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 45px;
+}
+
+.cost-includes-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px auto 0px 120px;
+}
+
+.cost-includes-list-item {
+  margin-top: 10px;
+}
+
+.cost-includes-list-item-img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.cost-includes-list-item-text {
+  display: inline-block;
+  margin-left: 20px;
+  color: #4e4e4e;
+  font-family: "Muller Regular";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cost-ps {
+  color: #000000;
+  font-family: "Muller Regular";
+  font-size: 18px;
+  font-weight: 400;
+  margin: 48px 90px 0px;
 }
 
 /* * * * * */
