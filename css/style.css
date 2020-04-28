@@ -36,18 +36,22 @@
   text-align: right;
 }
 
-.header-nav-contact-info {
+.header-nav-contact-phone {
   font-family: "Muller Regular";
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
 }
 
-.header-nav-contact-phoneNumber {
+.header-nav-contact-phone-number {
   font-family: "Muller Bold";
   font-size: 20px;
   font-weight: 400;
   line-height: 18px;
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  margin-top: 6px;
 }
 
 .header-title {
@@ -231,13 +235,65 @@
   margin-top: 20px;
 }
 
-.block4-slider {
+.slider-content {
+  position: relative;
+  z-index: 240;
   margin-top: 80px;
 }
 
-.block4-slider-pic {
+.slick-slide:not(.reviews-slider-slide)  {
   width: 940px;
   height: 530px;
+  margin: 0 10px;
+}
+
+.slick-slide:not(.slick-current):not(.reviews-slider-slide) {
+  width: 940px;
+  height: 480px;
+  margin: 25px 10px;
+  cursor: pointer;
+}
+
+.slider-slider-pic {
+  width: 940px;
+  height: 530px;
+}
+
+.slider-overlay {
+  position: absolute;
+  z-index: 250;
+  width: 940px;
+  height: 530px;
+  opacity: 0.5;
+  background-color: #444444;
+}
+
+.slider-slide-overlay {
+  position: absolute;
+  z-index: 260;
+  color: #ffffff;
+  margin: 24px;
+  border: 1px solid #ffffff;
+  width: 890px;
+  height: 480px;
+  opacity: 1;
+}
+
+.slider-slide-overlay-title {
+  color: #ffffff;
+  font-family: "Muller Medium";
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 180px;
+}
+
+.slider-slide-overlay-description {
+  color: #ffffff;
+  font-family: "Muller Regular";
+  font-size: 18px;
+  font-weight: 400;
+  margin: 24px 208px auto;
 }
 
 /* * * * * */
@@ -334,15 +390,6 @@
   margin-top: 20px;
 }
 
-.program-slider {
-  margin-top: 80px;
-}
-
-.program-slider-pic {
-  width: 940px;
-  height: 530px;
-}
-
 /* * * * * */
 
 .ayurveda {
@@ -377,8 +424,7 @@
 }
 
 .ayurveda-list {
-  margin: 60px auto 72px;
-  width: 620px;
+  margin: 60px 160px 72px;
   text-align: start;
 }
 
@@ -392,7 +438,6 @@
 .ayurveda-list-item-pic {
   width: 120px;
   height: 120px;
-  object-fit: contain;
 }
 
 .ayurveda-list-item-text {
@@ -400,6 +445,7 @@
   font-size: 18px;
   font-weight: 400;
   margin-left: 40px;
+  max-width: 460px;
 }
 
 /* * * * * */
@@ -520,7 +566,7 @@
 
 .instructors-card-info {
   position: relative;
-  z-index: 400;
+  z-index: 100;
   top: 370px;
   background-color: rgba(68, 68, 68, 0.5);
   height: 170px;
@@ -557,7 +603,7 @@
 
 .instructors-card-btns {
   position: absolute;
-  z-index: 500;
+  z-index: 110;
   top: 520px;
   left: 880px;
   cursor: default;
@@ -599,7 +645,53 @@
 }
 
 .reviews-slider {
+  margin-bottom: 48px;
+  /* max-width: 940px !important; */
+}
 
+.reviews-slider-slide {
+  display: flex !important;
+  justify-content: flex-start;
+  text-align: left;
+  /* temporary */
+  margin-left: 220px;
+}
+
+.reviews-slider-slide-img {
+  width: 150px;
+  height: 150px;
+}
+
+.reviews-slider-slide-info {
+  margin-left: 40px;
+  max-width: 580px;
+}
+
+.reviews-slider-slide-info-name {
+  color: #000000;
+  font-family: "Muller Regular";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.reviews-slider-slide-info-name-bold {
+  font-family: "Muller Bold";
+}
+
+.reviews-slider-slide-info-link {
+  color: #c94410;
+  font-family: "Muller Light";
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.reviews-slider-slide-info-text {
+  color: #393939;
+  font-family: "Muller Regular Italic";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
 }
 
 .reviews-slider-btns-item {
@@ -911,6 +1003,7 @@
 .warranty-docs-list-item-img {
   width: 140px;
   height: 180px;
+  cursor: pointer;
 }
 
 .warranty-docs-list-item-text {
@@ -1009,6 +1102,73 @@
 
 /* * * * * */
 
+.footer {
+  background-color: #383838;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-flex-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-flex-left-img {
+  width: 51px;
+  height: 66px;
+}
+
+.footer-flex-left-right {
+  margin-left: 40px;
+}
+
+.footer-flex-left-right-text {
+  color: #ffffff;
+  font-family: "Muller Regular";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-flex-left-right-link {
+  display: block;
+  color: #ffffff;
+  font-family: "Muller Bold";
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.footer-flex-right-ie {
+  color: #ffffff;
+  font-family: "Muller Regular";
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.footer-flex-right-text {
+  color: #ffffff;
+  font-family: "Muller Regular";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-number {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Myriad Pro";
+  font-weight: 400;
+}
+
+/* * * * * */
+
 @font-face {
   font-family: "Muller Bold";
   src: url("../fonts/Muller/MullerBold.ttf") format("truetype");
@@ -1037,4 +1197,9 @@
 @font-face {
   font-family: "Muller Regular Italic";
   src: url("../fonts/Muller/MullerRegularItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("../fonts/MyriadPro/MyriadPro-Regular.ttf") format("truetype");
 }
