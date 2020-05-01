@@ -1,0 +1,15 @@
+.program {
+  background: linear-gradient(#f8f2e4 65%, white 35%);
+  padding-top: 80px;
+  text-align: center;
+}
+
+.program-title {
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.program-line {
+  margin-top: 20px;
+}

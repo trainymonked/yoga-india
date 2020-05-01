@@ -1,0 +1,50 @@
+.chose {
+  background-color: #f8f2e4;
+  padding-top: 80px;
+  padding-bottom: 56px;
+  text-align: center;
+}
+
+.chose-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.chose-line {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.chose-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.chose-grid-item {
+  width: 26%;
+  margin-bottom: 56px;
+}
+
+.chose-grid-item-img {
+  width: 120px;
+  height: 120px;
+}
+
+.chose-grid-item-title {
+  color: #000000;
+  font-family: "Muller Bold";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 38px;
+}
+
+.chose-grid-item-text {
+  color: #000000;
+  font-family: "Muller Light";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}

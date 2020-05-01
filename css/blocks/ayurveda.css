@@ -1,0 +1,56 @@
+.ayurveda {
+  padding-top: 80px;
+  text-align: center;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.ayurveda-title {
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.ayurveda-line {
+  margin-top: 20px;
+  margin-bottom: 42px;
+}
+
+.ayurveda-text {
+  font-family: "Muller Light";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 28px;
+}
+
+.ayurveda-program {
+  font-family: "Muller Medium";
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 64px;
+}
+
+.ayurveda-list {
+  margin: 60px 160px 72px;
+  text-align: start;
+}
+
+.ayurveda-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ayurveda-list-item-pic {
+  width: 120px;
+  height: 120px;
+}
+
+.ayurveda-list-item-text {
+  font-family: "Muller Light";
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 40px;
+  max-width: 460px;
+}

@@ -1,0 +1,246 @@
+.cost {
+  background-color: #f8f2e4;
+  padding-top: 80px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+.cost-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.cost-line {
+  margin-top: 20px;
+  margin-bottom: 56px;
+}
+
+.cost-card {
+  margin: 0px 60px;
+}
+
+.cost-card-up {
+  background-color: #ffffff;
+  padding: 50px 50px 20px;
+}
+
+.cost-card-up-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.cost-card-up-item-text {
+  color: #000000;
+  font-family: "Muller Light";
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.cost-card-up-bold {
+  font-family: "Muller Bold";
+  font-weight: 700;
+}
+
+.cost-card-up-item-price {
+  color: #e28234;
+  font-family: "Muller Light";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.cost-card-down {
+  background-color: #f4e1b6;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 45px;
+  align-items: center;
+}
+
+.cost-card-down-text {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.cost-card-down-button {
+  color: #e28234;
+  font-family: "Muller Bold";
+  font-size: 12px;
+  font-weight: 400;
+  border: 2px solid #e28234;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 12px 44px;
+  cursor: pointer;
+}
+
+.cost-card-down-button:hover {
+  background-color: #db883c;
+  color: #ffffff;
+}
+
+.cost-includes-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 45px;
+}
+
+.cost-includes-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px auto 0px 120px;
+}
+
+.cost-includes-list-item {
+  margin-top: 10px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.cost-includes-list-item-img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.cost-includes-list-item-text {
+  display: inline-block;
+  margin-left: 20px;
+  color: #4e4e4e;
+  font-family: "Muller Regular";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cost-ps {
+  color: #000000;
+  font-family: "Muller Regular";
+  font-size: 18px;
+  font-weight: 400;
+  margin: 48px 90px 0px;
+}
+
+@media (max-width: 992px) {
+  .cost-card {
+    margin: 0px 30px;
+  }
+  .cost-card-up {
+    padding: 40px 30px 20px;
+  }
+  .cost-card-up-item {
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .cost-card-up-item-text {
+    font-size: 17px;
+  }
+  .cost-card-up-item-price {
+    font-size: 17px;
+  }
+  .cost-card-down {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .cost-card-down-text {
+    font-size: 17px;
+  }
+  .cost-card-down-button {
+    padding: 12px 40px;
+  }
+  .cost-includes-list {
+    margin-top: 16px;
+    margin-left: 50px;
+  }
+  .cost-includes-list-item-img {
+    width: 12px;
+    height: 12px;
+  }
+  .cost-includes-list-item-text {
+    margin-left: 16px;
+    font-size: 16px;
+  }
+  .cost-ps {
+    font-size: 18px;
+    margin: 40px 50px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cost-card {
+    margin: 0px 10px;
+    text-align: left;
+  }
+  .cost-card-up {
+    padding: 30px 30px 10px;
+  }
+  .cost-card-up-item-text {
+    font-size: 16px;
+    max-width: 350px;
+  }
+  .cost-card-up-item-price {
+    font-size: 16px;
+  }
+  .cost-card-down {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .cost-card-down-text {
+    font-size: 15px;
+    max-width: 310px;
+  }
+  .cost-card-down-button {
+    padding: 10px 36px;
+  }
+  .cost-includes-list {
+    margin-top: 12px;
+    margin-left: 30px;
+  }
+  .cost-includes-list-item {
+    margin-top: 6px;
+  }
+  .cost-includes-list-item-img {
+
+  }
+  .cost-includes-list-item-text {
+    margin-left: 16px;
+    font-size: 16px;
+    max-width: 450px;
+  }
+  .cost-ps {
+    font-size: 17px;
+    margin: 40px 40px 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cost-card-up {
+    padding: 20px 20px 10px;
+  }
+  .cost-card-up-item-text {
+    font-size: 14px;
+    max-width: 72%;
+  }
+  .cost-card-up-item-price {
+    font-size: 15px;
+  }
+  .cost-card-down {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .cost-card-down-text {
+    font-size: 13px;
+    max-width: 60%;
+    word-wrap: break-word;
+  }
+  .cost-card-down-button {
+    padding: 12px 20px;
+  }
+}

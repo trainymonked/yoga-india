@@ -1,0 +1,82 @@
+.reviews {
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.reviews-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.reviews-line {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.reviews-slider {
+  margin-bottom: 48px;
+  /* max-width: 940px !important; */
+}
+
+.reviews-slider-slide {
+  display: flex !important;
+  justify-content: flex-start;
+  text-align: left;
+  /* temporary */
+  margin-left: 220px;
+}
+
+.reviews-slider-slide-img {
+  width: 150px;
+  height: 150px;
+}
+
+.reviews-slider-slide-info {
+  margin-left: 40px;
+  max-width: 580px;
+}
+
+.reviews-slider-slide-info-name {
+  color: #000000;
+  font-family: "Muller Regular";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.reviews-slider-slide-info-name-bold {
+  font-family: "Muller Bold";
+}
+
+.reviews-slider-slide-info-link {
+  color: #c94410;
+  font-family: "Muller Light";
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.reviews-slider-slide-info-text {
+  color: #393939;
+  font-family: "Muller Regular Italic";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.reviews-slider-btns-item {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  mask: url(../../img/card_btn.svg) no-repeat center;
+  -webkit-mask: url(../../img/card_btn.svg) no-repeat center;
+  background-color: #b4b4b4;
+}
+
+.reviews-slider-btns-item-active {
+  mask: url(../../img/card_btn2.svg) no-repeat center;
+  -webkit-mask: url(../../img/card_btn2.svg) no-repeat center;
+}

@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Muller Bold";
+  src: url("../fonts/Muller/MullerBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Muller Light";
+  src: url("../fonts/Muller/MullerLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Muller Light Italic";
+  src: url("../fonts/Muller/MullerLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Muller Medium";
+  src: url("../fonts/Muller/MullerMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Muller Regular";
+  src: url("../fonts/Muller/MullerRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Muller Regular Italic";
+  src: url("../fonts/Muller/MullerRegularItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("../fonts/MyriadPro/MyriadPro-Regular.ttf") format("truetype");
+}

@@ -1,0 +1,43 @@
+.reasons {
+  padding-top: 80px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.reasons-title {
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.reasons-line {
+  margin-top: 16px;
+}
+
+.reasons-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  margin-top: 70px;
+  padding-bottom: 25px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.reasons-list-item {
+  width: 30%;
+  margin-bottom: 45px;
+}
+
+.reasons-list-item-pic {
+  margin-bottom: 20px;
+}
+
+.reasons-list-item-text {
+  font-family: "Muller Regular";
+  font-size: 16px;
+  font-weight: 400;
+  width: 84%;
+  margin: 0 auto;
+}

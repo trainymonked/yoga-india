@@ -1,0 +1,60 @@
+.slider-content {
+  position: relative;
+  z-index: 240;
+  margin-top: 80px;
+}
+
+.slick-slide:not(.reviews-slider-slide)  {
+  width: 940px;
+  height: 530px;
+  margin: 0 10px;
+}
+
+.slick-slide:not(.slick-current):not(.reviews-slider-slide) {
+  width: 940px;
+  height: 480px;
+  margin: 25px 10px;
+  cursor: pointer;
+}
+
+.slider-slider-pic {
+  width: 940px;
+  height: 530px;
+}
+
+.slider-overlay {
+  position: absolute;
+  z-index: 250;
+  width: 940px;
+  height: 530px;
+  opacity: 0.5;
+  background-color: #444444;
+}
+
+.slider-slide-overlay {
+  position: absolute;
+  z-index: 260;
+  color: #ffffff;
+  margin: 24px;
+  border: 1px solid #ffffff;
+  width: 890px;
+  height: 480px;
+  opacity: 1;
+}
+
+.slider-slide-overlay-title {
+  color: #ffffff;
+  font-family: "Muller Medium";
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 180px;
+}
+
+.slider-slide-overlay-description {
+  color: #ffffff;
+  font-family: "Muller Regular";
+  font-size: 18px;
+  font-weight: 400;
+  margin: 24px 208px auto;
+}

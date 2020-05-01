@@ -1,0 +1,97 @@
+.contacts {
+  background-color: #fcf9f1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contacts-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.contacts-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.contacts-flex-item {
+  margin-top: 28px;
+}
+
+.contacts-flex-item-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.contacts-flex-social-links-item-img {
+  margin-right: 10px;
+  border: 1px solid #e28234;
+  border-radius: 50%;
+}
+
+.contacts-flex-social-links-item-img:hover {
+  background-color: #f4e1b6;
+  border-color: #f4e1b6;
+}
+
+.contacts-flex-phone-info {
+  color: #000000;
+  font-family: "Muller Light Italic";
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: -4px;
+}
+
+.contacts-flex-phone-number {
+  display: block;
+  color: #000000;
+  font-family: "Muller Bold";
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 4px;
+  text-decoration: none;
+}
+
+.contacts-flex-offices {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contacts-flex-offices-office:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+.contacts-flex-offices-office-map {
+  cursor: pointer;
+}
+
+.contacts-flex-offices-office-address {
+  color: #000000;
+  font-family: "Muller Regular";
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.contacts-flex-item:not(:last-of-type) {
+  margin-right: 120px;
+}
+
+@media (max-width: 768px) {
+  .contacts-flex {
+    flex-direction: column;
+  }
+  .contacts-flex-item:not(:last-of-type) {
+    margin-right: 0;
+  }
+  .contacts-flex-offices-office-address {
+    margin-top: 4px;
+    margin-bottom: 12px;
+  }
+}

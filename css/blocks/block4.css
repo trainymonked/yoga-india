@@ -1,0 +1,15 @@
+.block4 {
+  padding-top: 80px;
+  text-align: center;
+  background: linear-gradient(#f8f2e4 70%, white 30%);
+}
+
+.block4-title {
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.block4-line {
+  margin-top: 20px;
+}

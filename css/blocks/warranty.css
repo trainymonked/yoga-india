@@ -1,0 +1,52 @@
+.warranty {
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.warranty-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.warranty-line {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.warranty-text {
+  color: #000000;
+  font-family: "Muller Light Italic";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.warranty-docs-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 60px;
+}
+
+.warranty-docs-list {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.warranty-docs-list-item-img {
+  width: 140px;
+  height: 180px;
+  cursor: pointer;
+}
+
+.warranty-docs-list-item-text {
+  color: #000000;
+  font-family: "Muller Regular";
+  font-size: 14px;
+  font-weight: 400;
+}

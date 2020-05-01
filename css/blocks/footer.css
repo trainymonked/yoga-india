@@ -1,0 +1,99 @@
+.footer {
+  background-color: #383838;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-flex-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-flex-left-img {
+  width: 51px;
+  height: 66px;
+}
+
+.footer-flex-left-right {
+  margin-left: 40px;
+}
+
+.footer-flex-left-right-text {
+  color: #ffffff;
+  font-family: "Muller Regular";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-flex-left-right-link {
+  display: block;
+  color: #ffffff;
+  font-family: "Muller Bold";
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.footer-flex-right-ie {
+  color: #ffffff;
+  font-family: "Muller Regular";
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.footer-flex-right-text {
+  color: #ffffff;
+  font-family: "Muller Regular";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-number {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Myriad Pro";
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .footer-flex-left-right {
+    margin-left: 20px;
+  }
+  .footer-flex-left-right-link {
+    font-size: 16px;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-flex-left-right-link {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-flex {
+    flex-wrap: wrap;
+  }
+  .footer-flex-left-img {
+    width: 40px;
+    height: 52px;
+  }
+  .footer-flex-left-right {
+    margin-left: 12px;
+  }
+  .footer-flex-left-right-link {
+    font-size: 17px;
+  }
+  .footer-flex-right {
+    margin-top: 12px;
+  }
+}

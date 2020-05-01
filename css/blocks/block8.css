@@ -1,0 +1,82 @@
+.block8 {
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.block8-content {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  background-image: url(../../img/back.svg);
+  background-size: 75%;
+  background-repeat: no-repeat;
+}
+
+.block8-content-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 460px;
+  justify-content: space-between;
+}
+
+.block8-content-grid-item {
+  width: 139px;
+  height: 139px;
+  margin-bottom: 21px;
+}
+
+.block8-content-description {
+  max-width: 420px;
+  margin-left: 30px;
+}
+
+.block8-content-description-title {
+  color: #000000;
+  font-family: "Muller Medium";
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.block8-content-description-location {
+  color: #4b4b4b;
+  font-family: "Muller Light";
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.block8-content-description-text {
+  color: #000000;
+  font-family: "Muller Light";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.block8-content-description-benefits {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 260px;
+  margin-top: 40px;
+}
+
+.block8-content-description-benefits-item {
+  max-width: 47%;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.block8-content-description-benefits-item-img {
+  width: 13px;
+  height: 13px;
+  margin-right: 10px;
+}
+
+.block8-content-description-benefits-item-text {
+  color: #454545;
+  font-family: "Muller Light";
+  font-size: 13px;
+  font-weight: 400;
+}
