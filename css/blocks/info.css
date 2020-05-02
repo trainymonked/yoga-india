@@ -92,8 +92,8 @@
   }
   .info-in-pic {
     opacity: 0.5;
-    width: 490px;
-    height: 615px;
+    width: 460px;
+    height: 580px;
   }
   .info-in-text-medium {
     font-size: 30px;
@@ -103,7 +103,7 @@
     font-size: 48px;
   }
   .info-in-text-paragraph {
-    margin-top: 200px;
+    margin-top: 160px;
     font-size: 16px;
     margin-bottom: 30px;
   }

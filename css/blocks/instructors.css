@@ -86,7 +86,7 @@
 }
 
 .instructors-card-btns-item-active {
-  mask: url(../../img/card_btn2.svg) no-repeat center;;
+  mask: url(../../img/card_btn2.svg) no-repeat center;
   -webkit-mask: url(../../img/card_btn2.svg) no-repeat center;
 }
 
@@ -138,6 +138,9 @@
   .instructors-card-vertline {
     display: none;
   }
+  .instructors-card-info-name {
+    margin-right: 0;
+  }
   .instructors-card-info-long {
     margin-left: 0;
     margin-top: 20px;
@@ -160,8 +163,12 @@
   .instructors-card-btns {
     display: none;
   }
+  .instructors-card-info-name {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
   .instructors-card-info-long {
-    margin-top: 10px;
+    margin-top: 4px;
     max-width: 100%;
   }
 }

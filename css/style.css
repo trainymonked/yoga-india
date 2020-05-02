@@ -71,10 +71,18 @@
   .container {
     max-width: 540px;
   }
+  .slider-slide-overlay-description {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
 }
 
 @media (max-width: 576px) {
   .container {
     width: 90%;
+  }
+  .slider-slide-overlay-description {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }

@@ -24,7 +24,7 @@
 }
 
 .chose-grid-item {
-  width: 26%;
+  width: 29%;
   margin-bottom: 56px;
 }
 
@@ -47,4 +47,35 @@
   font-size: 16px;
   font-weight: 400;
   margin-top: 20px;
+}
+
+@media (max-width: 992px) {
+  .chose-grid-item-title {
+    margin-top: 20px;
+  }
+  .chose-grid-item-text {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .chose-grid-item {
+    margin-bottom: 28px;
+    width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .chose-grid-item-img {
+    width: 80px;
+    height: 80px;
+  }
+  .chose-grid-item-title {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+  .chose-grid-item-text {
+    margin-top: 4px;
+    font-size: 13px;
+  }
 }

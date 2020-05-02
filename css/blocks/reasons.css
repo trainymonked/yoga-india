@@ -32,6 +32,8 @@
 
 .reasons-list-item-pic {
   margin-bottom: 20px;
+  width: 170px;
+  width: 170px;
 }
 
 .reasons-list-item-text {
@@ -40,4 +42,27 @@
   font-weight: 400;
   width: 84%;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .reasons-list-item-pic {
+    margin-bottom: 8px;
+    width: 120px;
+    width: 120px;
+  }
+  .reasons-list-item-text {
+    font-size: 14px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .reasons-list-item {
+    width: 47%;
+    margin-bottom: 25px;
+  }
+  .reasons-list {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

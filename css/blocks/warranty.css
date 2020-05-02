@@ -50,3 +50,28 @@
   font-size: 14px;
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+  .warranty-docs-list {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .warranty-docs-list-item {
+    width: 34%;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .warranty-docs-list-item-img {
+    width: 100%;
+    height: 100%;
+  }
+  .warranty-docs-list-item {
+    width: 45%;
+    margin-bottom: 40px;
+  }
+  .warranty-docs-list-item-text {
+    font-size: 13px;
+  }
+}
