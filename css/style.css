@@ -31,6 +31,27 @@
   margin: 0 auto;
 }
 
+.cr {
+  padding: 8px 0;
+  background-color: #383838;
+}
+
+.cr-text {
+  font-family: "Muller Regular";
+  color: #ffffff;
+}
+
+.cr-link {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cr-link:hover {
+  font-style: italic;
+  text-decoration: underline;
+}
+
 @media (max-width: 992px) {
   .container {
     width: 740px;
